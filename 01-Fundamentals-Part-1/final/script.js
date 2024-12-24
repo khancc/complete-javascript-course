@@ -193,6 +193,19 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
+// birthYear = 1999;
+// let century;
+
+// if (birthYear <= 1899) {
+//   century = 19;
+//   console.log(`you were born in the century of ${century}`);
+// } else if (birthYear <= 2000) {
+//   century = 20;
+//   console.log(`you were born in the century of ${century}`);
+// } else if (birthYear <= 2100) {
+//   century = 21;
+//   console.log(`you were born in the century of ${century}`);
+// }
 
 ////////////////////////////////////
 // Coding Challenge #2
@@ -207,6 +220,19 @@ HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
 */
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(`John's BMI is ${BMIJohn}, Mark's BMI is (${BMIMark})`);
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI (${BMIMark}) is higher than John's(${BMIJohn})!`);
+} else {
+  console.log(`John's BMI (${BMIJohn}) is higher than Mark's(${BMIMark})!`);
+}
 
 /*
 const massMark = 78;
