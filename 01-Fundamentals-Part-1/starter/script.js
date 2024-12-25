@@ -14,16 +14,16 @@
 // slsad
 // sdssds`
 // );
-const age = 18;
-const isOldEnough = age >= 19;
+// const age = 18;
+// const isOldEnough = age >= 19;
 
-if (age >= 19) {
-  console.log(`Sarah can drive`);
-} else {
-  const yearsleft = 19 - age;
-  if (yearsleft == 1) {
-    console.log(`Sarah has to wait ${yearsleft} year left`);
-  } else {
-    console.log(`Sarah has to wait ${yearsleft} years left`);
-  }
-}
+// if (age >= 19) {
+//   console.log(`Sarah can drive`);
+// } else {
+//   const yearsleft = 19 - age;
+//   if (yearsleft == 1) {
+//     console.log(`Sarah has to wait ${yearsleft} year left`);
+//   } else {
+//     console.log(`Sarah has to wait ${yearsleft} years left`);
+//   }
+// }
