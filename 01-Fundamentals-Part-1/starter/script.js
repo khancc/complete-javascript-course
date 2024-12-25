@@ -27,3 +27,10 @@
 //     console.log(`Sarah has to wait ${yearsleft} years left`);
 //   }
 // }
+// const inputYear = `1991`;
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// // console.log(typeof NaN);
+// console.log(String(`truongkhang`), 23);
+// console.log(`im 23 years old ${Number(inputYear)}`);
