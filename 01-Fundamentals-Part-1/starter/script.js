@@ -40,6 +40,7 @@ if (money) {
 } else {
   console.log(`get a fkin job pls`);
 }
+
 let height = 0;
 if (height) {
   console.log(`hey manh nhat tg(${height})cm`);
