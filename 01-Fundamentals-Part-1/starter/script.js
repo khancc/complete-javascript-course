@@ -34,3 +34,15 @@
 // // console.log(typeof NaN);
 // console.log(String(`truongkhang`), 23);
 // console.log(`im 23 years old ${Number(inputYear)}`);
+const money = 123;
+if (money) {
+  console.log(`dont spend it all`);
+} else {
+  console.log(`get a fkin job pls`);
+}
+let height = 0;
+if (height) {
+  console.log(`hey manh nhat tg(${height})cm`);
+} else {
+  console.log(`height is undefined`);
+}
