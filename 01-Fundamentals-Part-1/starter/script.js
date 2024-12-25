@@ -47,8 +47,12 @@
 // } else {
 //   console.log(`height is undefined`);
 const age = 18;
-if (age == 18) {
+const tieuchuan = `18`;
+if (age == tieuchuan) {
   console.log(`may du tuoi roi`);
-} else {
-  console.log(`may chua du tuoi`);
+} else if (age == 200) console.log(`may la quai vat a`);
+else if (age > 18) {
+  console.log(`may qua tuoi roi`);
+} else if (age < 18) {
+  console.log(`may chua du tuoi dau`);
 }
