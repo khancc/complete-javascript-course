@@ -31,19 +31,24 @@
 // console.log(Number(inputYear), inputYear);
 // console.log(Number(inputYear) + 18);
 
-// // console.log(typeof NaN);
+// console.log(typeof NaN);
 // console.log(String(`truongkhang`), 23);
 // console.log(`im 23 years old ${Number(inputYear)}`);
-const money = 123;
-if (money) {
-  console.log(`dont spend it all`);
-} else {
-  console.log(`get a fkin job pls`);
-}
+// const money = 123;
+// if (money) {
+//   console.log(`dont spend it all`);
+// } else {
+//   console.log(`get a fkin job pls`);
+// }
 
-let height = 0;
-if (height) {
-  console.log(`hey manh nhat tg(${height})cm`);
+// let height = 0;
+// if (height) {
+//   console.log(`hey manh nhat tg(${height})cm`);
+// } else {
+//   console.log(`height is undefined`);
+const age = 18;
+if (age == 18) {
+  console.log(`may du tuoi roi`);
 } else {
-  console.log(`height is undefined`);
+  console.log(`may chua du tuoi`);
 }
