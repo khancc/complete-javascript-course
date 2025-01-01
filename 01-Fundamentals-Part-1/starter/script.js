@@ -1,20 +1,17 @@
-const age = 16;
+const age = 18;
 const tieuchuan = `18`;
-if (age == tieuchuan) {
-  console.log(`may du tuoi roi`);
-} else if (age == 200) console.log(`may la quai vat a`);
-else if (age > 18) {
-  console.log(`may qua tuoi roi`);
-} else if (age < 18) {
-  console.log(`may chua du tuoi dau `);
-}
-console.log(typeof age);
-if (age === tieuchuan) {
-  SVGDefsElement.log(`may du tuoi roi`);
-}
-console.log(`tieuchuan: ${tieuchuan}`);
-alert(`Hello World`);
+if (age == tieuchuan) console.log("You just became an adult!");
+if (age == tieuchuan) console.log("tuyet cmn voi");
+if (age == tieuchuan) console.log("tuyet voi lamm BTS");
 
-console;
+const momAge = Number(prompt("whats your mom's name"));
+console.log(momAge);
+console.log(typeof momAge);
 
-sd;
+if (momAge === 23) {
+  console.log("I love BTS");
+} else if (momAge === 11) {
+  console.log("ur a fkin pervert");
+} else {
+  console.log(`its not 23 or 11 (you input "${momAge}") `);
+}
