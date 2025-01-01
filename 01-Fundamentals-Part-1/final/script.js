@@ -354,34 +354,51 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
 */
+const scoreDolphins = (100 + 97 + 101) / 3;
+const scoreKoalas = (100 + 97 + 101) / 3;
 
-/*
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log(`Dolphins team win with the result of ${scoreDolphins}`);
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log(`Koalas team won with the result of ${scoreKoalas}`);
+} else if (
+  scoreKoalas === scoreDolphins &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log(`its draw with the result of ${scoreDolphins}`);
+} else {
+  console.log(
+    `no one won the trophy, koalas score:${scoreKoalas}, dolphins score:${scoreDolphins}`
+  );
+}
+/////////////////////////////////////////////////
+// const scoreDolphins = (97 + 112 + 80) / 3;
+// const scoreKoalas = (109 + 95 + 50) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log('Dolphins win the trophy 🏆');
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//   console.log('Koalas win the trophy 🏆');
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//   console.log('Both win the trophy!');
+// } else {
+//   console.log('No one wins the trophy 😭');
+// }
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const scoreKoalas = (88 + 91 + 110) / 3;
 // console.log(scoreDolphins, scoreKoalas);
 
 // if (scoreDolphins > scoreKoalas) {
-//   console.log('Dolphins win the trophy 🏆');
+//   console.log("Dolphins win the trophy 🏆");
 // } else if (scoreKoalas > scoreDolphins) {
-//   console.log('Koalas win the trophy 🏆');
+//   console.log("Koalas win the trophy 🏆");
 // } else if (scoreDolphins === scoreKoalas) {
-//   console.log('Both win the trophy!');
+//   console.log("Both win the trophy!");
 // }
-
+/*
 // BONUS 1
-const scoreDolphins = (97 + 112 + 80) / 3;
-const scoreKoalas = (109 + 95 + 50) / 3;
-console.log(scoreDolphins, scoreKoalas);
-
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-  console.log('Dolphins win the trophy 🏆');
-} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-  console.log('Koalas win the trophy 🏆');
-} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
-  console.log('Both win the trophy!');
-} else {
-  console.log('No one wins the trophy 😭');
-}
 
 ////////////////////////////////////
 // The switch Statement
