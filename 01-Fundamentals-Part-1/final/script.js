@@ -490,6 +490,15 @@ HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 
 GOOD LUCK 😀
 */
+const bill = 430;
+let tip;
+console.log(
+  `The bill was ${bill}, the tip was {${
+    bill >= 50 && bill <= 300
+      ? (tip = (bill * 15) / 100)
+      : (tip = (bill * 20) / 100)
+  }}, and the total value ${tip + bill}`
+);
 
 /*
 const bill = 430;
