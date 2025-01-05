@@ -354,24 +354,24 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
 */
-const scoreDolphins = (100 + 97 + 101) / 3;
-const scoreKoalas = (100 + 97 + 101) / 3;
+// const scoreDolphins = (100 + 97 + 101) / 3;
+// const scoreKoalas = (100 + 97 + 101) / 3;
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-  console.log(`Dolphins team win with the result of ${scoreDolphins}`);
-} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-  console.log(`Koalas team won with the result of ${scoreKoalas}`);
-} else if (
-  scoreKoalas === scoreDolphins &&
-  scoreDolphins >= 100 &&
-  scoreKoalas >= 100
-) {
-  console.log(`its draw with the result of ${scoreDolphins}`);
-} else {
-  console.log(
-    `no one won the trophy, koalas score:${scoreKoalas}, dolphins score:${scoreDolphins}`
-  );
-}
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log(`Dolphins team win with the result of ${scoreDolphins}`);
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//   console.log(`Koalas team won with the result of ${scoreKoalas}`);
+// } else if (
+//   scoreKoalas === scoreDolphins &&
+//   scoreDolphins >= 100 &&
+//   scoreKoalas >= 100
+// ) {
+//   console.log(`its draw with the result of ${scoreDolphins}`);
+// } else {
+//   console.log(
+//     `no one won the trophy, koalas score:${scoreKoalas}, dolphins score:${scoreDolphins}`
+//   );
+// }
 /////////////////////////////////////////////////
 // const scoreDolphins = (97 + 112 + 80) / 3;
 // const scoreKoalas = (109 + 95 + 50) / 3;
@@ -490,15 +490,15 @@ HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 
 GOOD LUCK 😀
 */
-const bill = 430;
-let tip;
-console.log(
-  `The bill was ${bill}, the tip was {${
-    bill >= 50 && bill <= 300
-      ? (tip = (bill * 15) / 100)
-      : (tip = (bill * 20) / 100)
-  }}, and the total value ${tip + bill}`
-);
+// const bill = 430;
+// let tip;
+// console.log(
+//   `The bill was ${bill}, the tip was {${
+//     bill >= 50 && bill <= 300
+//       ? (tip = (bill * 15) / 100)
+//       : (tip = (bill * 20) / 100)
+//   }}, and the total value ${tip + bill}`
+// );
 
 /*
 const bill = 430;
