@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
 ///////////////////////////////////////
@@ -42,14 +42,14 @@ const num = Number('23');
 // Function Declarations vs. Expressions
 
 // Function declaration
-function calcAge1(birthYeah) {
-  return 2037 - birthYeah;
+function calcAge1(birthyear) {
+  return 2037 - birthyear;
 }
 const age1 = calcAge1(1991);
 
 // Function expression
-const calcAge2 = function (birthYeah) {
-  return 2037 - birthYeah;
+const calcAge2 = function (birthyear) {
+  return 2037 - birthyear;
 }
 const age2 = calcAge2(1991);
 
@@ -59,12 +59,12 @@ console.log(age1, age2);
 ///////////////////////////////////////
 // Arrow functions
 
-const calcAge3 = birthYeah => 2037 - birthYeah;
+const calcAge3 = birthyear => 2037 - birthyear;
 const age3 = calcAge3(1991);
 console.log(age3);
 
-const yearsUntilRetirement = (birthYeah, firstName) => {
-  const age = 2037 - birthYeah;
+const yearsUntilRetirement = (birthyear, firstName) => {
+  const age = 2037 - birthyear;
   const retirement = 65 - age;
   // return retirement;
   return `${firstName} retires in ${retirement} years`;
@@ -91,12 +91,12 @@ console.log(fruitProcessor(2, 3));
 
 ///////////////////////////////////////
 // Reviewing Functions
-const calcAge = function (birthYeah) {
-  return 2037 - birthYeah;
+const calcAge = function (birthyear) {
+  return 2037 - birthyear;
 }
 
-const yearsUntilRetirement = function (birthYeah, firstName) {
-  const age = calcAge(birthYeah);
+const yearsUntilRetirement = function (birthyear, firstName) {
+  const age = calcAge(birthyear);
   const retirement = 65 - age;
 
   if (retirement > 0) {
@@ -191,8 +191,8 @@ console.log(jonas);
 console.log(jonas.length);
 
 // Exercise
-const calcAge = function (birthYeah) {
-  return 2037 - birthYeah;
+const calcAge = function (birthyear) {
+  return 2037 - birthyear;
 }
 const years = [1990, 1967, 2002, 2010, 2018];
 
@@ -332,22 +332,22 @@ console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his bes
 const jonas = {
   firstName: 'Jonas',
   lastName: 'Schmedtmann',
-  birthYeah: 1991,
+  birthyear: 1991,
   job: 'teacher',
   friends: ['Michael', 'Peter', 'Steven'],
   hasDriversLicense: true,
 
-  // calcAge: function (birthYeah) {
-  //   return 2037 - birthYeah;
+  // calcAge: function (birthyear) {
+  //   return 2037 - birthyear;
   // }
 
   // calcAge: function () {
   //   // console.log(this);
-  //   return 2037 - this.birthYeah;
+  //   return 2037 - this.birthyear;
   // }
 
   calcAge: function () {
-    this.age = 2037 - this.birthYeah;
+    this.age = 2037 - this.birthyear;
     return this.age;
   },
 
